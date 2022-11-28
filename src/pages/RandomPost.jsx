@@ -12,6 +12,7 @@ export const postLoader = async ({ params }) => {
 
 const RandomPost = () => {
   const { post, commentsPromise } = useLoaderData();
+
   return (
     <section>
       <h2>{post.title}</h2>
